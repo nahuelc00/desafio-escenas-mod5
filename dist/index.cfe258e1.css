@@ -1,0 +1,72 @@
+/*Header component*/
+/*Necesita fuente Roboto, weight 500,400*/
+.header {
+  gap: 9px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 94px;
+  padding: 0 15px 0 15px;
+  overflow: auto;
+}
+@media (min-width: 1200px) {
+  .header {
+    background-color: white;
+
+    gap: 71px;
+    height: 169px;
+  }
+}
+.header__logo {
+  margin: 0 13px 0 22px;
+  background-color: #849fff;
+  width: 66px;
+  display: flex;
+  height: 44px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 1200px) {
+  .header__logo {
+    width: 156px;
+    height: 68px;
+  }
+}
+.header__form {
+  display: flex;
+  gap: 9px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.header__input {
+  font-size: 24px;
+  height: 44px;
+  width: 169px;
+}
+@media (min-width: 1200px) {
+  .header__input {
+    height: 73px;
+    width: 521px;
+  }
+}
+.header__btn {
+  background-color: #393939;
+  border-style: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  height: 44px;
+}
+@media (min-width: 1200px) {
+  .header__btn {
+    width: 242px;
+    height: 73px;
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=index.cfe258e1.css.map */
